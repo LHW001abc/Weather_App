@@ -1,0 +1,30 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Weather app using Node.js",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app/index.js"
+  },
+  "author": "Ismail ZAHIR",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismailza/weather-app.git"
+  },
+  "keywords": [
+    "weather",
+    "api",
+    "nodejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/ismailza/weather-app/issues"
+  },
+  "homepage": "https://github.com/ismailza/weather-app#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2"
+  }
+}
